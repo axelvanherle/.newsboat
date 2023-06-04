@@ -12,10 +12,18 @@
 
 	# TECH RSS FEEDS
 	---Tech---
+	https://news.itsfoss.com/latest/rss/ tech
+	https://www.cyberciti.com/atom/atom.xml tech
 	https://www.bleepingcomputer.com/feed/ tech
-	https://noted.lol/rss/
-	https://techcrunch.com/feed/
-	https://rss.packetstormsecurity.com/news/
+	https://noted.lol/rss/ tech
+	https://techcrunch.com/feed/ tech
+	https://rss.packetstormsecurity.com/news/ tech
+	
+	# BLOG RSS FEEDS
+	---Blogs---
+	https://www.axelvanherle.xyz/index.xml blog
+	https://lukesmith.xyz/index.xml blog
+	https://www.da.vidbuchanan.co.uk/blog/rss.xml blog
 
 	# PODCASTS RSS FEEDS
 	---Poscasts---
