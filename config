@@ -5,15 +5,16 @@
 	# Auto reload every feed using 12 threads.
 	auto-reload yes
 	reload-threads 12
+	reload-time 15
 	# Highlight feeds with a header
 	highlight feedlist "---.*---" yellow default bold
 	# Change title formats
-	feedlist-title-format "%N | Your feed (%u unread)%?T? - tag ‘%T’&?"
+	feedlist-title-format "Your feeds ---| %u unread, %t total |--%>--| %N %V |---"
+	articlelist-title-format "Your articles ---| %T |---|%u unread, %t total|--%>--| %N %V |---"
 
 # PODCASTS
 	# Download path
-	 download-path ~/Music/Podcasts/%n
-
+	download-path ~/Music/Podcasts/%n
 # BINDS
 	# switch o and O binds
 	unbind-key o
