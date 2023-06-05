@@ -6,10 +6,7 @@ To install put `urls` and `config` into the `.newsboat` directory located at hom
 
 Or `cd && git clone https://github.com/axelvanherle/.newsboat.git`. Note that this expects there to be no `.newsboat` directory. You can remove the directory by running `cd && rm -rf .newsboat`.
 
-# Usage
-This assumes you have a basic understanding of newsboat.
-
-## Binds
+# Binds
 This newsboat is setup with vim binds, so it assumes a basic understanging of navigating with these binds. You only need to know what the `jkhl` binds do to be able to navigate. Also, `g/G` replace `gg and G`.
 
 As far as custom binds i have a few set:
