@@ -1,20 +1,18 @@
 # .newsboat
 My newsboat configuration files, with vim binds.
 
-<img src="https://github.com/axelvanherle/.newsboat/assets/94362354/19a5e3c7-4463-42ab-ab7a-e215f676ecd8" width="500"/>
-
 # Install
 To install put `urls` and `config` into the `.newsboat` directory located at home.
 
-Or `cd && git clone https://github.com/axelvanherle/.newsboat.git`
+Or `cd && git clone https://github.com/axelvanherle/.newsboat.git`. Note that this expects there to be no `.newsboat` directory. You can remove the directory by running `cd && rm -rf .newsboat`.
 
 # Usage
-This assumes you have read the documentation and have a basic understanding of newsboat.
+This assumes you have a basic understanding of newsboat.
 
 ## Binds
 This newsboat is setup with vim binds, so it assumes a basic understanging of navigating with these binds. You only need to know what the `jkhl` binds do to be able to navigate. Also, `g/G` replace `gg and G`.
 
-As far as custom binds i have a few set.
+As far as custom binds i have a few set:
 - `a` to toggle the read status of an article
 - `N` to toggle downloads in podboat
 - `f` follow link
