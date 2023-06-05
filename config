@@ -15,6 +15,11 @@
 	 download-path ~/Music/Podcasts/%n
 
 # BINDS
+	# switch o and O binds
+	unbind-key o
+	unbind-key O
+	bind-key o open-in-browser-and-mark-read 
+	bind-key O  open-in-browser
 	# a to toggle article as read
 	unbind-key a
 	bind-key a toggle-article-read 
