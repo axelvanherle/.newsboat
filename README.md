@@ -1,8 +1,7 @@
 # .newsboat
 My newsboat configuration files, with vim binds.
 
-<img src="https://github.com/axelvanherle/.newsboat/assets/94362354/ee07831e-ae95-4409-9642-825464bcebf6" width="800"/>
-
+<img src="https://github.com/axelvanherle/.newsboat/assets/94362354/19a5e3c7-4463-42ab-ab7a-e215f676ecd8" width="500"/>
 
 # Install
 To install put `urls` and `config` into the `.newsboat` directory located at home.
@@ -20,7 +19,6 @@ As far as custom binds i have a few set.
 - `N` to toggle downloads in podboat
 - `f` follow link
 - switch `o` and `O` binds
-
 
 # Contributing 
 Submit a PR. If i like what i see, it will get merged.
