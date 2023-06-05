@@ -1,33 +1,49 @@
 # CUSTOM FEEDS
-	"---Custom Feeds---"
-	"query:Unread Articles:unread = \"yes\""
+	"---Unread Articles---"
+	"query:All:unread = \"yes\""
+	"query:Linux:(tags # \"linux\") and (unread = \"yes\")"
+	"query:FOSS:(tags # \"foss\") and (unread = \"yes\")"
+	"query:Tech:(tags # \"tech\") and (unread = \"yes\")"
+	"query:Blog:(tags # \"blog\") and (unread = \"yes\")"
+	"query:Podcasts:(tags # \"podcast\") and (unread = \"yes\")"
+	"query:News:(tags # \"news\") and (unread = \"yes\")"
+	"---Categorised by date---"
 	"query:Today's Articles:age < 1"
 	"query:This week's Articles:age < 7"
 	"query:This months's Articles:age < 30"
+	" "
+# RSS FEEDS
+	"---Linux and FOSS---"
+	https://www.linux.com/feed/ linux
+	https://www.linuxjournal.com/node/feed linux
+	https://feeds.feedburner.com/d0od linux foss
+	https://lwn.net/headlines/newrss linux foss
+	https://planet.kernel.org/rss20.xml linux foss
+	https://news.itsfoss.com/latest/rss/ foss
+	https://blog.mozilla.org/feed/ foss
+	https://opensource.com/feed foss
+	https://archlinux.org/feeds/news/ linux
 
-# RSS URLS
-	# NEWS RSS FEEDS
-	---News---
+	---Blogs--- # Blog RSS feeds
+	https://lukesmith.xyz/index.xml blog
+	https://www.da.vidbuchanan.co.uk/blog/rss.xml blog
+
+	---News--- # News RSS feeds
 	http://rss.cnn.com/rss/cnn_topstories.rss news
 	http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml news
 	https://www.vice.com/en/rss/section/news news
 
-	# TECH RSS FEEDS
-	---Tech---
-	https://news.itsfoss.com/latest/rss/ tech
+	---Tech--- # Tech RSS feeds
 	https://www.cyberciti.com/atom/atom.xml tech
 	https://www.bleepingcomputer.com/feed/ tech
 	https://noted.lol/rss/ tech
 	https://techcrunch.com/feed/ tech
 	https://rss.packetstormsecurity.com/news/ tech
-	
-	# BLOG RSS FEEDS
-	---Blogs---
-	https://lukesmith.xyz/index.xml blog
-	https://www.da.vidbuchanan.co.uk/blog/rss.xml blog
+	https://blog.mozilla.org/feed/ tech
+	https://github.blog/all.atom tech
+	https://news.ycombinator.com/rss tech
 
-	# PODCASTS RSS FEEDS
-	---Podcasts---
+	---Podcasts--- # Podcasts RSS feeds
 	https://feeds.megaphone.fm/cyberwire-daily-podcast podcast
 	https://feeds.megaphone.fm/caveat podcast
 	https://feeds.megaphone.fm/hacking-humans-goes-to-the-movies podcast
