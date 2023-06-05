@@ -10,7 +10,9 @@
 	highlight feedlist "---.*---" yellow default bold
 	# Change title formats
 	feedlist-title-format "Your feeds ---| %u unread, %t total |--%>--| %N %V |---"
+	feedlist-format "%n %11u %t"
 	articlelist-title-format "Your articles ---| %T |---|%u unread, %t total|--%>--| %N %V |---"
+	articlelist-format "%f %D %6L %?T?;%-17T; ?%t"
 
 # PODCASTS
 	# Download path
