@@ -1,6 +1,8 @@
 # CUSTOM FEEDS
 	"query:Unread Articles:unread = \"yes\""
 	"query:Today's Articles:age < 1"
+	"query:This week's Articles:age < 7"
+	"query:This months's Articles:age < 30"
 
 # RSS URLS
 	# NEWS RSS FEEDS
