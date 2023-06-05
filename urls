@@ -1,4 +1,5 @@
 # CUSTOM FEEDS
+	"---Custom Feeds---"
 	"query:Unread Articles:unread = \"yes\""
 	"query:Today's Articles:age < 1"
 	"query:This week's Articles:age < 7"
