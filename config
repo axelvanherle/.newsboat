@@ -7,6 +7,21 @@
 	reload-threads 12
 	# Highlight feeds with a header
 	highlight feedlist "---.*---" yellow default bold
+	# Change title formats
+	feedlist-title-format "%N | Your feed (%u unread)%?T? - tag ‘%T’&?"
+
+# PODCASTS
+	# Download path
+	 download-path ~/Music/Podcasts/%n
+
+# BINDS
+	# a to toggle article as read
+	unbind-key a
+	bind-key a toggle-article-read 
+	
+	# toggle automatic downloading of podcasts
+	unbind-key N
+	bind-key N pb-toggle-download-all 
 
 # VIM BINDS
 	# jk - move up/down
