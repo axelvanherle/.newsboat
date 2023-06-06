@@ -38,11 +38,11 @@
 	https://www.da.vidbuchanan.co.uk/blog/rss.xml blog
 
 	---News---
-	http://feeds.bbci.co.uk/news/world/rss.xml
-	http://rss.cnn.com/rss/edition_world.rss
-	http://feeds.reuters.com/Reuters/worldNews
-	https://www.vrt.be/vrtnws/nl.rss.headlines.xml
-	https://feeds.nos.nl/nosnieuwsalgemeen
+	http://feeds.bbci.co.uk/news/world/rss.xml news
+	http://rss.cnn.com/rss/edition_world.rss news
+	http://feeds.reuters.com/Reuters/worldNews news
+	https://www.vrt.be/vrtnws/nl.rss.headlines.xml news
+	https://feeds.nos.nl/nosnieuwsalgemeen news
 
 	---Tech---
 	https://www.cyberciti.com/atom/atom.xml tech
