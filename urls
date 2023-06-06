@@ -1,8 +1,9 @@
 # CUSTOM FEEDS
 	"---Unread Articles---"
 	"query:All:unread = \"yes\""
-	"query:Linux:(tags # \"linux\") and (unread = \"yes\")"
 	"query:FOSS:(tags # \"foss\") and (unread = \"yes\")"
+	"query:Linux:(tags # \"linux\") and (unread = \"yes\")"
+	"query:Cyber Sec:(tags # \"cybersec\") and (unread = \"yes\")"
 	"query:Tech:(tags # \"tech\") and (unread = \"yes\")"
 	"query:Blog:(tags # \"blog\") and (unread = \"yes\")"
 	"query:Podcasts:(tags # \"podcast\") and (unread = \"yes\")"
@@ -13,27 +14,37 @@
 	"query:This months's Articles:age < 30"
 	" "
 # RSS FEEDS
-	"---Linux and FOSS---"
-	https://www.linux.com/feed/ linux
-	https://www.linuxjournal.com/node/feed linux
-	https://feeds.feedburner.com/d0od linux foss
-	https://lwn.net/headlines/newrss linux foss
-	https://planet.kernel.org/rss20.xml linux foss
+	---FOSS---
 	https://news.itsfoss.com/latest/rss/ foss
 	https://blog.mozilla.org/feed/ foss
 	https://opensource.com/feed foss
-	https://archlinux.org/feeds/news/ linux
 
-	---Blogs--- # Blog RSS feeds
+	---Linux---
+	https://archlinux.org/feeds/news/ linux
+	https://www.linux.com/feed/ linux
+	https://planet.kernel.org/rss20.xml linux
+	https://www.linuxjournal.com/node/feed linux
+	https://feeds.feedburner.com/d0od linux 
+	https://lwn.net/headlines/newrss linux 
+	
+	---CyberSec---
+	https://grahamcluley.com/feed/ cybersec
+	https://krebsonsecurity.com/feed/ cybersec
+	https://www.schneier.com/blog/atom.xml cybersec
+	https://www.darkreading.com/rss.xml cybersec
+
+	---Blogs---
 	https://lukesmith.xyz/index.xml blog
 	https://www.da.vidbuchanan.co.uk/blog/rss.xml blog
 
-	---News--- # News RSS feeds
-	http://rss.cnn.com/rss/cnn_topstories.rss news
-	http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml news
-	https://www.vice.com/en/rss/section/news news
+	---News---
+	http://feeds.bbci.co.uk/news/world/rss.xml
+	http://rss.cnn.com/rss/edition_world.rss
+	http://feeds.reuters.com/Reuters/worldNews
+	https://www.vrt.be/vrtnws/nl.rss.headlines.xml
+	https://feeds.nos.nl/nosnieuwsalgemeen
 
-	---Tech--- # Tech RSS feeds
+	---Tech---
 	https://www.cyberciti.com/atom/atom.xml tech
 	https://www.bleepingcomputer.com/feed/ tech
 	https://noted.lol/rss/ tech
@@ -43,7 +54,7 @@
 	https://github.blog/all.atom tech
 	https://news.ycombinator.com/rss tech
 
-	---Podcasts--- # Podcasts RSS feeds
+	---Podcasts---
 	https://feeds.megaphone.fm/cyberwire-daily-podcast podcast
 	https://feeds.megaphone.fm/caveat podcast
 	https://feeds.megaphone.fm/hacking-humans-goes-to-the-movies podcast
