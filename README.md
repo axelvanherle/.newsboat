@@ -15,5 +15,5 @@ As far as custom binds i have a few set:
 - `f` follow link
 - switch `o` and `O` binds
 
-# Contributing 
-Submit a PR. If i like what i see, it will get merged.
+--- 
+You can submit a PR. If i like what i see, it will get merged.
