@@ -1,6 +1,6 @@
 # CUSTOM FEEDS
 	"---Unread Articles---"
-	"query:All:unread = \"yes\""
+	"query:All:(tags !# \"poscast\") and (unread = \"yes\")"
 	"query:FOSS:(tags # \"foss\") and (unread = \"yes\")"
 	"query:Linux:(tags # \"linux\") and (unread = \"yes\")"
 	"query:Cyber Sec:(tags # \"cybersec\") and (unread = \"yes\")"
@@ -39,10 +39,8 @@
 
 	---News---
 	http://feeds.bbci.co.uk/news/world/rss.xml news
-	http://rss.cnn.com/rss/edition_world.rss news
 	http://feeds.reuters.com/Reuters/worldNews news
 	https://www.vrt.be/vrtnws/nl.rss.headlines.xml news
-	https://feeds.nos.nl/nosnieuwsalgemeen news
 
 	---Tech---
 	https://www.cyberciti.com/atom/atom.xml tech
